@@ -17,13 +17,4 @@ model=utils.check_existing_model("nlp_model")
 
 model=train_model.build_spacy_model(train,model)
 
-#test_text=text_extractor.convert_pdf_to_text("D:\\ProjectProd\\Resume_Parser\\output\\")
-
-
 predict_model.predict("../output/")
-
-
-#mine = text_extractor.convert_pdf_to_text('D:\\ProjectProd\\Resume_Parser\\input\\resumes\\resumes')
-
-#print(test.head())
-
